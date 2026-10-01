@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Clipboard</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>Web Clipboard</h1>
+    <textarea id="clipboardText" placeholder="Paste text here to send, or click 'Get & Copy' to receive."></textarea>
+    <div class="buttons">
+        <button id="sendBtn">Send</button>
+        <button id="getBtn">Get & Copy</button>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}" defer></script>
+
+</body>
+</html>

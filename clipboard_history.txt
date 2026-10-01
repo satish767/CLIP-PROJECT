@@ -1,0 +1,9 @@
+[2025-09-07 15:03:33] To create an Android media player app is to design and build a mobile application (for Android phones/tablets) that can play audio and/or video. That includes code, UI, media playback logic, handling files/streams, and packaging everything so it runs on Android devices.
+[2025-09-07 15:04:25] Typical core features
+
+Play/pause, stop, seek (fast-forward/rewind).
+
+Playlists (create/save/load).
+
+Support for local files (MP3, MP4, AAC, etc.) and optionally streaming (HTTP / HLS)..
+[2025-09-07 15:05:22] Media controls: volume, repeat, shuffle.
